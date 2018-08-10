@@ -10,7 +10,6 @@ def run_guessing_game
         print "The computer guessed #{comp_num}"
       elsif user_num == comp_num
         print "You guessed the correct number!"
-      elsif
     end
   end
   puts "Goodbye!"
