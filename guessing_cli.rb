@@ -11,6 +11,7 @@ def run_guessing_game
         break
       elsif user_num != comp_num
         print "The computer guessed #{comp_num}"
+        break
     end
   end
   puts "Goodbye!"
