@@ -1,7 +1,7 @@
 
 def run_guessing_game
-
-  loop do
+input = ""
+  while input
     puts "Guess a number between 1 and 6."
     user_num = gets.chomp
     comp_num = rand(1..6).to_i
