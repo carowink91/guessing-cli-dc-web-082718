@@ -11,6 +11,7 @@ def run_guessing_game
       puts "The computer guessed #{comp_num}"
     elsif user_num == "exit"
       puts "Goodbye"
+      break
     end
   end
 end
