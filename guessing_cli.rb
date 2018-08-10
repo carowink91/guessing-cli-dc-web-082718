@@ -4,11 +4,11 @@ def run_guessing_game
   comp_num = rand().to_i
 
   until user_num == "exit"
-  if user_num == comp_num
-    puts "You guessed the correct number!"
-  elsif user_num != comp_num
-    puts "The computer guessed #{comp_num}"
-  elsif user_num == "exit"
-    break
+    if user_num == comp_num
+      puts "You guessed the correct number!"
+    elsif user_num != comp_num
+      puts "The computer guessed #{comp_num}"
+    elsif user_num == "exit"
+    end
   end
 end
