@@ -1,5 +1,7 @@
 # Code your solution here!
 def run_guessing_game
-  user_number = gets.chomp
-  generated_number = rand().to_i
+  user_num = gets.chomp
+  comp_num = rand().to_i
+
+  if user_num == generated_number
 end
