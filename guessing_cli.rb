@@ -6,10 +6,11 @@ def run_guessing_game
     puts "Guess a number between 1 and 6."
     user_num = gets.downcase.chomp
     break if user_num == "exit"
-      if user_num == comp_num
-        print "You guessed the correct number!"
-      elsif user_num != comp_num
+      if user_num != comp_num
         print "The computer guessed #{comp_num}"
+      elsif user_num == comp_num
+        print "You guessed the correct number!"
+      elsif
     end
   end
   puts "Goodbye!"
