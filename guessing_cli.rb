@@ -8,9 +8,8 @@ def run_guessing_game
     break if user_num == "exit"
       if user_num == comp_num
         puts "You guessed the correct number!"
-      elsif
+      else
         puts "The computer guessed #{comp_num}"
-      end
     end
   end
   puts "Goodbye!"
