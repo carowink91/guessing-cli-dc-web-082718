@@ -9,7 +9,7 @@ user_num = ""
     if user_num == comp_num
       print "You guessed the correct number!"
     elsif user_num != comp_num
-        print "The computer guessed #{comp_num}."
+      print "The computer guessed #{comp_num}."
     end
   end
   puts "Goodbye!"
